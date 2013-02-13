@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/main_background"
+>
+
+<ImageView
+android:id="@+id/smile_logo"
+android:layout_width="wrap_content"
+android:layout_height="100dp"
+android:layout_alignParentTop="true" 
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_marginTop="50dp"
+android:layout_marginLeft="50dp"
+android:layout_marginRight="50dp"
+android:src="@drawable/smile_logo"
+>
+</ImageView>    
+    
+<EditText 
+android:id="@+id/usernametext02"
+android:layout_width="480dp" 
+android:layout_height="70dp"
+android:hint="@string/login_username_hint"
+android:singleLine="true"
+android:inputType="textAutoCorrect|textCapSentences"
+android:layout_centerHorizontal="true"
+android:layout_below="@+id/smile_logo"    
+android:layout_marginTop="150dp"
+android:textSize="26sp"
+>
+</EditText>
+
+<Spinner
+android:id="@+id/select_language"
+android:layout_width="480dp"
+android:layout_height="70dp"
+android:drawSelectorOnTop="true"
+android:prompt="@string/select_language"
+android:textStyle="bold"
+android:layout_centerHorizontal="true"
+android:layout_below = "@+id/usernametext02"
+android:layout_marginTop="25dp"
+android:textSize="26sp"
+>
+</Spinner>
+
+<EditText 
+android:id="@+id/uri"
+android:layout_width="480dp" 
+android:layout_height="70dp" 
+android:text="@string/login_default_IP" 
+android:singleLine="true"
+android:layout_centerHorizontal="true"
+android:layout_below = "@+id/select_language"
+android:layout_marginTop="25dp"
+android:textSize="26sp"
+>
+</EditText>
+
+<Button
+android:id = "@+id/shareb"
+android:layout_width="wrap_content"
+android:layout_height="70dp"
+android:text = "@string/login_share"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="120dp"
+android:layout_below = "@+id/uri"
+android:layout_marginTop="50dp"
+android:textSize="26sp"
+>
+</Button>
+
+<Button
+android:id = "@+id/cancelb"
+android:layout_width="wrap_content"
+android:layout_height="70dp"
+android:text = "@string/login_reset"
+android:layout_toLeftOf="@+id/okb"
+android:layout_marginRight="20dp"
+android:layout_below = "@+id/uri"
+android:layout_marginTop="50dp"
+android:textSize="26sp"
+>
+</Button>
+
+<Button
+android:id = "@+id/okb"
+android:layout_width="wrap_content"
+android:layout_height="70dp"
+android:text = "@string/login"
+android:layout_alignParentRight="true"
+android:layout_marginRight="150dp"
+android:layout_below = "@+id/uri"
+android:layout_marginTop="50dp"
+android:textSize="26sp"
+>
+</Button>
+    
+<TextView
+android:id = "@+id/version"
+android:layout_width="wrap_content"
+android:layout_height="20dp"
+android:text = "@string/version"
+android:layout_centerHorizontal="true"
+android:layout_above = "@+id/stanford_logo"
+android:layout_marginBottom="3dp"
+>
+</TextView>
+<!--  
+<ImageView
+android:id="@+id/stanford_logo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true" 
+android:layout_marginBottom="50dp"
+android:layout_centerHorizontal="true"
+android:src="@drawable/stanford_logo"
+>
+</ImageView>    -->
+
+</RelativeLayout>

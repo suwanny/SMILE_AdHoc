@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <string-array name="language_list">
+        <item>Arabic</item>
+        <item>English</item>
+        <item>Portuguese</item>
+        <item>Spanish</item>
+        <item>Swahili</item>
+        <item>Thai</item>
+    </string-array>
+    
+    <string-array name="category_list">
+        <item>Make Your Question</item>
+        <item>Solve Questions</item>
+        <item>See Results</item>
+   </string-array>
+    
+    <string name="hello">Hello World, MySMILE!</string>
+	<string name="app_name">SMILE</string>
+	<string name="version">VERSION 2.1.3</string>
+	<string name="select_language">Select a language</string>
+					    
+	<string name="login_username_hint">Username</string>
+	<string name="login_optional_name">Name(optional)</string>
+	<string name="login_default_IP">192.168.2.4</string>
+	<string name="login_reset">RESET</string>
+	<string name="login">LOGIN</string>
+	<string name="login_share">FIND</string>  <!-- Find Server IP using multicasting -->
+	<string name="login_share_msg">Finding the server.</string>
+	<string name="default_share_scheme">http</string>
+	<string name="default_share_host">suseit.stanford.edu</string>
+	<string name="default_share_pathPrefix">/smile/</string>
+	<string name="default_user_name">default</string>
+					    
+	<!-- <string name="category_mq">Make Your Question</string>
+	<string name="category_sq">Solve Questions</string>
+	<string name="category_sr">See Results</string>-->
+	<string name="category_exit">EXIT</string>
+	
+	<string name="warn">Warnning!!</string>
+	<string name="exit_q">Do you want to exit the program?</string>
+	<string name="OK">OK</string>
+	<string name="NO">NO</string>
+	<string name="Cancel">Cancel</string>
+    
+	<string name="no_network"> No network connection</string>
+	<string name="insert_name">Insert username</string>
+	
+	<string name="ConnectingSever">ConnectingSever:</string>
+	<string name="Sending"> Sending:</string>
+	<string name="creatingconnection">Creating Connection</string>
+	<string name="network_warning">Connection Failed. Please Restart.</string>
+	
+	<string name="inform_state_before_connect">Trying to connect to the server.</string>
+	<string name="inform_state_ini_wait">Waiting for others to join the Quiz.</string>
+	<string name="inform_state_make_question">Press the button to start making your question.</string>
+	<string name="inform_state_wait_solve_question">Waiting for others to finish their question making.</string>
+	<string name="inform_state_solve_question">Press the button to start solving the questions.</string>
+	<string name="inform_state_wait_see_result">Waiting for others to finish solving the questions.</string>
+	<string name="inform_state_see_result">Press the button to see your results and ratings.</string>
+	<string name="inform_state_finish">Quiz activity is over.</string>
+	    
+	<!-- Make a question -->
+	<string name="q_content">Question:\n\n\n\n\n</string>
+	<string name="q_op1">Answer1:</string>
+	<string name="q_op2">Answer2:</string>
+	<string name="q_op3">Answer3:</string>
+	<string name="q_op4">Answer4:</string>
+	
+	<string name="img_dialog_title">Select an Image</string>
+	<string name="img_notice">Click THIS to return</string>
+	
+	
+	<!-- Preview question -->
+	<string name="back_btn">Back</string>
+	
+	<string name="preview_btn">Preview</string>
+	<string name="post_btn">Post</string>
+	
+	<!-- Solve Question -->
+	<string name="answer_text">Answer</string>
+	<string name="answer_1">(1)</string>
+	<string name="answer_2">(2)</string>
+	<string name="answer_3">(3)</string>
+	<string name="answer_4">(4)</string>
+	
+	<string name="rating_text">Rating</string>
+	<string name="rating_1">1</string>
+	<string name="rating_2">2</string>
+	<string name="rating_3">3</string>
+	<string name="rating_4">4</string>
+	<string name="rating_5">5</string>
+	
+	<string name="reset_btn">Reset</string>
+	<string name="prev_btn">Prev</string>
+	<string name="next_btn">Next</string>
+	
+	<!-- See Result -->
+	<string name="return_btn">Return</string>
+	<string name="detail_btn">Detail</string>
+	<string name="winner_btn">Winner</string>
+	    
+	<string name="post_q">Do you want to post this question?</string>
+	<string name="error_noanswer">ERROR: No Right Answer</string>
+	<string name="Post_MoreQ">Post+MoreQ</string>
+	
+	<string name="add_img">Add Image</string>
+	<string name="take_pic">Take Picture</string>
+	<string name="rmv_img">Remove Image</string>
+	
+	<!-- Remove image dialog -->
+	<string name="rmv_img_dialog_title">SMILE: Make a Question</string>
+	<string name="rmv_img_q">Do you want to delete image?</string>
+	
+	<string name="warn_nopic">Picture was not taken</string>
+	
+	<string name="notice_preview">previewing your question</string>
+	<string name="loading">Loading</string>
+	<string name="insert_error">Insert answer and rating</string>
+	<string name="submit_q">Do you want to submit your answers?</string>
+	<string name="submit_btn">Submit</string>
+	
+	<!-- Winner Result page -->
+	<string name="winner_title">Who is the Winner?</string>
+	<string name="quiz_score">Quiz Score</string>
+	<string name="h_score">Highest Score</string>
+	<string name="name">Name</string>
+	
+	<string name="rating_score_title">Question Rating Score</string>
+	<string name="h_avg_rating">Highest Average Rating</string>
+	
+	<string name="t_score">Total Score</string>
+	<string name="q_num">Question Number</string>
+	<string name="correct_wrong">Correct or Wrong</string>
+
+	<!-- Detail Result -->
+	<string name="my_answer">My Answer:</string>
+	<string name="num_r_answer">Right</string>
+	<string name="num_w_answer">Wrong</string>
+	<string name="notice_last_q">This is the last question.</string>
+	
+</resources>

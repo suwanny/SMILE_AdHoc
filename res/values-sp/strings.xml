@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="category_list">
+        <item>Haz tu pregunta</item>
+        <item>Resolver preguntas</item>
+        <item>Ver resultados</item>
+   </string-array>
+     
+    <string name="hello">SMILE!</string>
+    <string name="app_name">SMILE</string>
+    <string name="version">Versión 2.1.3</string>
+    <string name="select_language">Seleccione un idioma</string>
+    
+    <string name="login_username_hint">Nombre de usuario</string>
+    <string name="login_optional_name">Name(optional)</string>
+    <string name="login_default_IP">192.168.2.5</string>
+    <string name="login_reset">Reiniciar</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="login_share">Buscar</string>  <!-- Find Server IP using multicasting -->
+	<string name="login_share_msg">Búscando el servidor.</string>
+    <string name="default_user_name">defecto</string>
+    
+    <!-- 
+    <string name="category_mq_sp">Haz tu pregunta</string>
+    <string name="category_sq_sp">Resolver preguntas</string>
+    <string name="category_sr_sp">Ver resultados</string>
+    -->
+    <string name="category_exit">Salir</string>
+   
+    <string name="warn">Advertencia!!</string>
+	<string name="exit_q">¿Quieres salir del programa?</string>
+	<string name="OK">Aceptar</string>
+	<string name="NO">NO</string>
+	<string name="Cancel">Cancelar</string>
+
+	<string name="no_network"> Sin conexión a la red</string>
+	<string name="insert_name">Introduce el nombre de usuario</string>
+	
+	<string name="ConnectingSever">Conectándose al servidor</string>
+	<string name="Sending"> Envío:</string>
+	<string name="creatingconnection">Creando la conexión</string>
+	<string name="network_waring">Error de conexión. Por favor, Reiniciar.</string>
+    
+	<string name="inform_state_before_connect">Tratando de conectar con el servidor.</string>
+	<string name="inform_state_ini_wait">Esperando por otros que se se unan al examen. </string>
+	<string name="inform_state_make_question">
+		Esperar que otros a unirse a la Quiz.Trying para conectar con el servidor.</string>
+	<string name="inform_state_wait_solve_question">Esperar que otros para terminar su pregunta de decisiones.</string>
+	<string name="inform_state_solve_question">Pulse el botón para comenzar a resolver las preguntas.</string>
+	<string name="inform_state_wait_see_result">Esperar que otros para terminar de resolver las preguntas.</string>
+	<string name="inform_state_see_result">Pulse el botón para ver los resultados y clasificaciones.</string>
+	<string name="inform_state_finish">El examen ha terminado. </string>
+	
+	<!-- Make a question -->
+	<string name="q_content">Pregunta:\n\n\n\n\n</string>
+	<string name="q_op1">responder1:</string>
+	<string name="q_op2">responder2:</string>
+	<string name="q_op3">responder3:</string>
+	<string name="q_op4">responder4:</string>
+	
+	<string name="img_dialog_title">Seleccione una imagen</string>
+	<string name="img_notice">Haga clic en este botón para volver</string>
+	
+	<!-- Preview question -->
+	<string name="back_btn">Espalda</string>
+	
+	<string name="preview_btn">Vista previa</string>
+	<string name="post_btn">Enviar</string>
+	
+	<!-- Solve Question -->
+	<string name="answer_text">Responder</string>
+	<string name="answer_1">(1)</string>
+	<string name="answer_2">(2)</string>
+	<string name="answer_3">(3)</string>
+	<string name="answer_4">(4)</string>
+	
+	<string name="rating_text">Clasificación</string>
+	<string name="rating_1">1</string>
+	<string name="rating_2">2</string>
+	<string name="rating_3">3</string>
+	<string name="rating_4">4</string>
+	<string name="rating_5">5</string>
+	
+	<string name="reset_btn">Reajustar</string>
+	<string name="prev_btn">Anterior</string>
+	<string name="next_btn">Próximo</string>
+	
+	<!-- See Result -->
+	<string name="return_btn">Volver</string>
+	<string name="detail_btn">Detalle</string>
+	<string name="winner_btn">Ganador</string>
+	
+	<string name="post_q">¿Quieres publicar esta pregunta?</string>
+	<string name="error_noanswer">ERROR: una respuesta correcta</string>
+	<string name="Post_MoreQ">Publicar más preguntas</string>
+	
+	<string name="add_img">Añadir imagen</string>
+	<string name="take_pic">Tomar foto</string>
+	<string name="rmv_img">Eliminar imagen</string>
+	
+	<!-- Remove image dialog -->
+	<string name="rmv_img_dialog_title">SMILE: Hacer una pregunta</string>
+	<string name="rmv_img_q">¿Quiere borrar la imagen?</string>
+	
+	<string name="warn_nopic">La imagen no fue tomada</string>
+	
+	<string name="notice_preview">Vista previa de tu pregunta</string>
+	<string name="loading">Cargando</string>
+	<string name="insert_error">Inserte respuesta y clasificación</string>
+	<string name="submit_q">¿Quieres enviar sus respuestas?</string>
+	<string name="submit_btn">Enviar</string>
+	
+	<!-- Winner Result page -->
+	<string name="winner_title">¿Quién es el ganador?</string>
+	<string name="quiz_score">Concurso Puntuación</string>
+	<string name="h_score">Puntuación más alta</string>
+	<string name="name">nombre</string>
+	
+	<string name="rating_score_title">Pregunta Puntuación Valoración</string>
+	<string name="h_avg_rating">Valoración media más alta</string>
+	
+	<string name="t_score">Puntaje total</string>
+	<string name="q_num">Pregunta Número</string>
+	<string name="correct_wrong">Correcto o incorrecto</string>
+	
+	<!-- Detail Result -->
+	<string name="my_answer">Mi respuesta:</string>
+	<string name="num_r_answer">Correcto</string>
+	<string name="num_w_answer">Mal</string>
+	<string name="notice_last_q">Esta es la última pregunta.</string>
+	
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="2"
+      android:versionName="2.1.3" package="edu.stanford.smile">
+                    
+        <uses-permission android:name="android.permission.INTERNET"></uses-permission>    
+        <uses-permission android:name="android.permission.CAMERA"></uses-permission> 
+        
+        <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+		<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+		 
+		<uses-sdk android:minSdkVersion="4" />
+		
+        <supports-screens android:resizeable="true"
+                  android:smallScreens="true"
+                  android:normalScreens="true"
+                  android:largeScreens="true"
+                  android:xlargeScreens="true"
+                  android:anyDensity="true"/>
+        
+        <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+        
+      <!--   <activity android:name=".intro"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <intent-filter>                     
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/default_share_scheme" android:host="@string/default_share_host"/>
+                <data android:pathPrefix="@string/default_share_pathPrefix" /> 
+            </intent-filter>
+        </activity> -->
+            
+      <!--  <activity android:name=".smile" 
+                  android:label="@string/app_name" 
+                  android:screenOrientation="portrait">
+            <intent-filter>                
+                 <action android:name="junction.intent.action.JOIN" />
+        		 <category android:name="android.intent.category.DEFAULT" />                     
+            </intent-filter>		         
+            
+        </activity> -->
+        
+        <activity android:name=".smile"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <intent-filter>                     
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/default_share_scheme" android:host="@string/default_share_host"/>
+                <data android:pathPrefix="@string/default_share_pathPrefix" /> 
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CourseList" 
+           			android:configChanges="orientation|keyboardHidden|locale"
+        			android:label="@string/app_name">
+       </activity>
+        
+    </application>
+          
+</manifest> 

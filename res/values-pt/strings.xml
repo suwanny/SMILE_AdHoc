@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <string-array name="category_list">
+        <item>Crie Sua Questão</item>
+        <item>Resolver Questões</item>
+        <item>Ver Resultados</item>
+   </string-array>
+    
+    <string name="hello">Olá Mundo, MeuSMILE!</string>
+	<string name="app_name">SMILE</string>
+	<string name="version">VERSION 2.1.3</string>
+	<string name="select_language">Selecione um idioma</string>
+					    
+	<string name="login_username_hint">Usuário</string>
+	<string name="login_optional_name">Nome(opcional)</string>
+	<string name="login_default_IP">192.168.2.4</string>
+	<string name="login_reset">LIMPAR</string>
+	<string name="login">LOGIN</string>
+	<string name="login_share">PROCURAR</string>  <!-- Find Server IP using multicasting -->
+	<string name="login_share_msg">Localizando o servidor.</string>
+	<string name="default_user_name">padrão</string>
+					    
+	<!-- <string name="category_mq">Make Your Question</string>
+	<string name="category_sq">Solve Questions</string>
+	<string name="category_sr">See Results</string>-->
+	<string name="category_exit">SAÍDA</string>
+	
+	<string name="warn">Atenção!!</string>
+	<string name="exit_q">Você deseja sair do programa?</string>
+	<string name="OK">OK</string>
+	<string name="NO">NÃO</string>
+	<string name="Cancel">Cancelar</string>
+    
+	<string name="no_network"> Sem conexão de rede</string>
+	<string name="insert_name">Insira um usuário</string>
+	
+	<string name="ConnectingSever">Conectando ao Servidor:</string>
+	<string name="Sending"> Enviando:</string>
+	<string name="creatingconnection">Criando Conexão</string>
+	<string name="network_warning">Conexão Falhou. Por Favor, Reinicie o Programa.</string>
+	
+	<string name="inform_state_before_connect">Tentando conectar ao servidor.</string>
+	<string name="inform_state_ini_wait">Aguardando os outros ingressarem no Quiz.</string>
+	<string name="inform_state_make_question">Pressione o botão para criar sua questão.</string>
+	<string name="inform_state_wait_solve_question">Aguardando os outros terminarem de criar suas questões.</string>
+	<string name="inform_state_solve_question">Pressione o botão para resolver as questões.</string>
+	<string name="inform_state_wait_see_result">Aguardando os outros terminarem de resolver as questões.</string>
+	<string name="inform_state_see_result">Pressione o botão para ver seus resultados e avaliações.</string>
+	<string name="inform_state_finish">A atividade acabou. </string>
+	    
+	<!-- Make a question -->
+	<string name="q_content">Questão:\n\n\n\n\n</string>
+	<string name="q_op1">Resposta1:</string>
+	<string name="q_op2">Resposta2:</string>
+	<string name="q_op3">Resposta3:</string>
+	<string name="q_op4">Resposta4:</string>
+	
+	<string name="img_dialog_title">Selecionar uma imagem</string>
+	<string name="img_notice">Clique para retornar</string>
+	
+	
+	<!-- Preview question -->
+	<string name="back_btn">Voltar</string>
+	
+	<string name="preview_btn">Visualizar</string>
+	<string name="post_btn">Postar</string>
+	
+	<!-- Solve Question -->
+	<string name="answer_text">Resposta</string>
+	<string name="answer_1">(1)</string>
+	<string name="answer_2">(2)</string>
+	<string name="answer_3">(3)</string>
+	<string name="answer_4">(4)</string>
+	
+	<string name="rating_text">Avaliação</string>
+	<string name="rating_1">1</string>
+	<string name="rating_2">2</string>
+	<string name="rating_3">3</string>
+	<string name="rating_4">4</string>
+	<string name="rating_5">5</string>
+	
+	<string name="reset_btn">Limpar</string>
+	<string name="prev_btn">Anterior</string>
+	<string name="next_btn">Próxima</string>
+	
+	<!-- See Result -->
+	<string name="return_btn">Voltar</string>
+	<string name="detail_btn">Detalhes</string>
+	<string name="winner_btn">Vencedor</string>
+	    
+	<string name="post_q">Você deseja postar esta questão?</string>
+	<string name="error_noanswer">ERRO: Selecione a resposta correta</string>
+	<string name="Post_MoreQ">Postar + Mais Q</string>
+	
+	<string name="add_img">Adicionar Imagem</string>
+	<string name="take_pic">Tirar Foto</string>
+	<string name="rmv_img">Remover Imagem</string>
+	
+	<!-- Remove image dialog -->
+	<string name="rmv_img_dialog_title">SMILE: Crie uma questão</string>
+	<string name="rmv_img_q">Você deseja deletar a imagem?</string>
+	
+	<string name="warn_nopic">Foto não tirada</string>
+	
+	<string name="notice_preview">visualizando sua questão</string>
+	<string name="loading">Carregando</string>
+	<string name="insert_error">Insira a resposta e a avaliação</string>
+	<string name="submit_q">Você deseja submeter suas respostas?</string>
+	<string name="submit_btn">Submeter</string>
+	
+	<!-- Winner Result page -->
+	<string name="winner_title">Quem é o vencedor?</string>
+	<string name="quiz_score">Pontuação no Quiz</string>
+	<string name="h_score">Maior Pontuação</string>
+	<string name="name">Nome</string>
+	
+	<string name="rating_score_title">Escore de Avaliação da Questão</string>
+	<string name="h_avg_rating">Maior Avaliação Média</string>
+	
+	<string name="t_score">Pontuação Total</string>
+	<string name="q_num">Questão Número</string>
+	<string name="correct_wrong">Certo ou Errado</string>
+
+	<!-- Detail Result -->
+	<string name="my_answer">Minha Resposta:</string>
+	<string name="num_r_answer">Certo</string>
+	<string name="num_w_answer">Errado</string>
+	<string name="notice_last_q">Esta é a última questão.</string>
+	
+</resources>

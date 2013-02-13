@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <string-array name="category_list">
+        <item>Tunga swali lako</item>
+        <item>Jibu maswali</item>
+        <item>angalia matokeo</item>
+   </string-array>
+    
+    <string name="hello">Halo ulimwengu</string>
+	<string name="app_name">SMILE</string>
+	<string name="version">TOLEO 2.1.3</string>
+	<string name="select_language">Chagua lugha</string>
+					    
+	<string name="login_username_hint">Jina la mtumiaji</string>
+	<string name="login_optional_name">Jina (hiari)</string>
+	<string name="login_default_IP">192.168.2.4</string>
+	<string name="login_reset">Rekebisha</string>
+	<string name="login">INGIA</string>
+	<string name="login_share">TAFUTA</string>  <!-- Find Server IP using multicasting -->
+	<string name="login_share_msg">Kutafuta kitunza mtandao</string>
+	<string name="default_user_name">shindwa</string>
+					    
+	<!-- <string name="category_mq">Make Your Question</string>
+	<string name="category_sq">Solve Questions</string>
+	<string name="category_sr">See Results</string>-->
+	<string name="category_exit">ONDOKA</string>
+	
+	<string name="warn">Onyo !!</string>
+	<string name="exit_q">Unataka kuondoka kwenye program.</string>
+	<string name="OK">NDIYO</string>
+	<string name="NO">HAPANA</string>
+	<string name="Cancel">Futa</string>
+    
+	<string name="no_network"> Hakuna mtandao uliounganishwa</string>
+	<string name="insert_name">Pachika jina la mtumiaji</string>
+	
+	<string name="ConnectingSever">Inajiunganisha kwenye mtandao:</string>
+	<string name="Sending"> Inapeleka:</string>
+	<string name="creatingconnection">inajiunganisha</string>
+	<string name="network_warning">imeshindwa kujiunganisha.Tafadhali anza tena.</string>
+	
+	<string name="inform_state_before_connect">Inajaribu kujiunganisha kwenye kitunza mtandao.</string>
+	<string name="inform_state_ini_wait">Inasubiri wengine wajiunge kwenye zoezi.</string>
+	<string name="inform_state_make_question">bonyeza kitufe kuanza kutunga swali.</string>
+	<string name="inform_state_wait_solve_question">inasubiri wengine kumaliza kutunga maswali yao.</string>
+	<string name="inform_state_solve_question">Bonyeza kitufe ili kuanza kujibu maswali.</string>
+	<string name="inform_state_wait_see_result">Inasubiri wengine wamalize kujibu maswali.</string>
+	<string name="inform_state_see_result">bonyeza kitufe,uone matokeo yako na viwango vya ubora wa maswali.</string>
+	<string name="inform_state_finish">Zoezi limekwisha. </string>
+	    
+	<!-- Make a question -->
+	<string name="q_content">Swali:\n\n\n\n\n</string>
+	<string name="q_op1">Jibu1:</string>
+	<string name="q_op2">Jibu2:</string>
+	<string name="q_op3">Jibu3:</string>
+	<string name="q_op4">Jibu4:</string>
+	
+	<string name="img_dialog_title">Chagua picha</string>
+	<string name="img_notice">Bofya hapa kurudi</string>
+	
+	
+	<!-- Preview question -->
+	<string name="back_btn">nyuma</string>
+	
+	<string name="preview_btn">Tazama</string>
+	<string name="post_btn">Tuma</string>
+	
+	<!-- Solve Question -->
+	<string name="answer_text">Jibu</string>
+	<string name="answer_1">(1)</string>
+	<string name="answer_2">(2)</string>
+	<string name="answer_3">(3)</string>
+	<string name="answer_4">(4)</string>
+	
+	<string name="rating_text">Kupima ubora</string>
+	<string name="rating_1">1</string>
+	<string name="rating_2">2</string>
+	<string name="rating_3">3</string>
+	<string name="rating_4">4</string>
+	<string name="rating_5">5</string>
+	
+	<string name="reset_btn">Rekebisha</string>
+	<string name="prev_btn">Iliyopita</string>
+	<string name="next_btn">Inayofuata</string>
+	
+	<!-- See Result -->
+	<string name="return_btn">Rudi</string>
+	<string name="detail_btn">Taarifa</string>
+	<string name="winner_btn">Mshindi</string>
+	    
+	<string name="post_q">Je unataka kulituma swali hili ?</string>
+	<string name="error_noanswer">KOSA :Hakuna jibu sahihi</string>
+	<string name="Post_MoreQ">Tuma swali lingine</string>
+	
+	<string name="add_img">Ongeza picha</string>
+	<string name="take_pic">Chukua picha</string>
+	<string name="rmv_img">Ondoa Picha</string>
+	
+	<!-- Remove image dialog -->
+	<string name="rmv_img_dialog_title">SMILE: Tunga swali</string>
+	<string name="rmv_img_q">Je unataka kufuta picha ?</string>
+	
+	<string name="warn_nopic">Picha haikuchukuliwa</string>
+	
+	<string name="notice_preview">Pitia swali lako</string>
+	<string name="loading">mwamala unaendelea</string>
+	<string name="insert_error">ingiza jibu na kiwango cha ubora wa swali</string>
+	<string name="submit_q">Je unataka kuwasilisha majibu yako?</string>
+	<string name="submit_btn">Wasilisha</string>
+	
+	<!-- Winner Result page -->
+	<string name="winner_title">Nani mshindi?</string>
+	<string name="quiz_score">alama za zoezi</string>
+	<string name="h_score">alama za juu sana</string>
+	<string name="name">Jina</string>
+	
+	<string name="rating_score_title">ubora wa swali</string>
+	<string name="h_avg_rating">Wastani wa juu wa ubora</string>
+	
+	<string name="t_score">Jumla ya alama</string>
+	<string name="q_num">namba ya swali</string>
+	<string name="correct_wrong">sahihi au si sahihi</string>
+
+	<!-- Detail Result -->
+	<string name="my_answer">Jibu langu:</string>
+	<string name="num_r_answer">Sahihi</string>
+	<string name="num_w_answer">si sahihi</string>
+	<string name="notice_last_q">Hili ni swali la mwisho.</string>
+	
+</resources>
